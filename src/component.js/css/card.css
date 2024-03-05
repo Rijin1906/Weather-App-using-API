@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .weather-card-image{
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+  }
+  .weather-card-details{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .weather-temp{
+font-size: 35px;
+color: white;
+font-weight: 900;
+margin-right: 10px;
+text-shadow: 2px 2px 3px black;
+  }
+  .weather-city-name{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    margin-right: 10px;
+text-shadow: 2px 2px 3px black;
+  }
+
+  /* ---------------------- MEDIA QUERY----------------------- */
+
+/* Extra Small Screen */
+@media(max-width:320px){
+  .weather-temp{
+    font-size: 25px;
+  }
+  .weather-city-name{
+    font-size: 25px;
+  }
+}
+
+/* Small Screens (phones and tablets) */
+@media(min-width:320px) and (max-width:768px){
+  .weather-temp{
+    font-size: 27px;
+  }
+  .weather-city-name{
+    font-size: 27px;
+  }
+}
+
+/* Medium Screen (Tablets) */
+@media(min-width:768px) and (max-width:992px){
+  .weather-temp{
+    font-size: 31px;
+  }
+  .weather-city-name{
+    font-size: 31px;
+  }
+}
+
+/* Large Screen (Desktops) */
+@media(min-width:992px) and (max-width:1200px){
+  .weather-temp{
+    font-size: 35px;
+  }
+  .weather-city-name{
+    font-size: 35px;
+  }
+}
+/* Extra Large Screen (Large Desktops) */
+@media(min-width:992px) and (max-width:1200px){
+  .weather-temp{
+    font-size: 37px;
+  }
+  .weather-city-name{
+    font-size: 37px;
+  }
+}

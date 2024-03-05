@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .searchBar-container{
+    margin-top: 20px;
+    /* background-color: blue; */
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchBar-input input{
+    height: 35px;
+    font-weight: 100;
+    font-size: 30px;
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid rgba(321,124,3,0.9);
+    border-radius: 10px;
+    text-align: center;
+    color: #1e1013;
+    margin-right: 10px;
+  }
+  .searchBar-button button{
+    height: 35px;
+    font-weight: 100;
+    font-size: 30px;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    box-shadow: 7px 3px rgba(321,124,3,0.9);
+  }
+  .searchBar-button button:hover{
+    box-shadow: 7px 3px #4CAF50
+  }
+/* ---------------------- MEDIA QUERY----------------------- */
+
+/* Extra Small Screen */
+@media(max-width:320px){
+  .searchBar-container{
+    display:grid;
+    justify-content: center;
+  }
+  .searchBar-input input{
+    height: 25px;
+    font-size: 22px;
+  }
+  .searchBar-button{
+    text-align: center;
+  }
+  .searchBar-button button{
+    height: 25px;
+    font-size: 22px;
+    padding: 1px;
+  }
+}
+
+
+/* Small Screens (phones and tablets) */
+@media(min-width:320px) and (max-width:768px){
+  .searchBar-container{
+    display:grid;
+    justify-content: center;
+  }
+  .searchBar-input input{
+    height: 27px;
+    font-size: 24px;
+  }
+  .searchBar-button{
+    text-align: center;
+  }
+  .searchBar-button button{
+    height: 27px;
+    font-size: 24px;
+    padding: 1px;
+  }
+}
+
+/* Medium Screen (Tablets) */
+@media(min-width:768px) and (max-width:992px){
+  /* .searchBar-container{
+    display:grid;
+    justify-content: center;
+  } */
+  .searchBar-input input{
+    height: 29px;
+    font-size: 26px;
+  }
+  .searchBar-button{
+    text-align: center;
+  }
+  .searchBar-button button{
+    height: 29px;
+    font-size: 26px;
+    padding: 1px;
+  }
+}
+
+/* Large Screen (Desktops) */
+@media(min-width:992px) and (max-width:1200px){
+  .searchBar-input input{
+    height: 35px;
+    font-size: 30px;
+  }
+  .searchBar-button{
+    text-align: center;
+  }
+  .searchBar-button button{
+    height: 35px;
+    font-size: 30px;
+  }
+}
+/* Extra Large Screen (Large Desktops) */
+@media(min-width:992px) and (max-width:1200px){
+  .searchBar-input input{
+    height: 37px;
+    font-size: 31px;
+  }
+  .searchBar-button{
+    text-align: center;
+  }
+  .searchBar-button button{
+    height: 37px;
+    font-size: 31px;
+  }
+}
